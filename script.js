@@ -6,7 +6,7 @@ const siteData = [
         category: "Web App",
         description: "冷蔵庫の中の食材を入力すると、作れる料理のレシピを提案してくれるアプリ。",
         image: "📋",
-        date: "2025-12-15",
+        date: "2026-02-17",
         url: "http://local.bunri.nagoya-bunri.ac.jp/~3124097/recipe-app/"
     },
     
