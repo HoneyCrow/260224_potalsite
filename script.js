@@ -2,94 +2,14 @@
 const siteData = [
     {
         id: 1,
-        title: "タスク管理アプリ",
+        title: "レシピアプリ",
         category: "Web App",
-        description: "リアルタイム同期機能付きのタスク管理アプリケーション。ドラッグ&ドロップで優先度を変更できます。",
+        description: "冷蔵庫の中の食材を入力すると、作れる料理のレシピを提案してくれるアプリ。",
         image: "📋",
         date: "2025-12-15",
-        url: "https://example.com/task-manager"
+        url: "http://local.bunri.nagoya-bunri.ac.jp/~3124097/recipe-app/"
     },
-    {
-        id: 2,
-        title: "天気予報アプリ",
-        category: "Web App",
-        description: "GPSと天気APIを使用した天気予報アプリ。5日間の予報と詳細な気象情報を表示します。",
-        image: "🌤️",
-        date: "2025-11-20",
-        url: "https://example.com/weather"
-    },
-    {
-        id: 3,
-        title: "ポートフォリオサイト",
-        category: "デザイン",
-        description: "モダンで応答性の高いポートフォリオサイト。プロジェクト一覧と連絡先フォーム付き。",
-        image: "🎨",
-        date: "2025-10-05",
-        url: "https://example.com/portfolio"
-    },
-    {
-        id: 4,
-        title: "計算機",
-        category: "ツール",
-        description: "基本的な四則演算と関数計算に対応した高機能電卓。計算履歴も保存できます。",
-        image: "🧮",
-        date: "2025-09-18",
-        url: "https://example.com/calculator"
-    },
-    {
-        id: 5,
-        title: "JavaScriptチュートリアル",
-        category: "学習",
-        description: "初心者向けJavaScriptの基礎を学べるインタラクティブなチュートリアルページ。",
-        image: "📚",
-        date: "2025-08-30",
-        url: "https://example.com/js-tutorial"
-    },
-    {
-        id: 6,
-        title: "画像編集ツール",
-        category: "ツール",
-        description: "ブラウザ上で動作する簡単な画像編集ツール。フィルターと基本的な編集機能を搭載。",
-        image: "🖼️",
-        date: "2025-08-10",
-        url: "https://example.com/image-editor"
-    },
-    {
-        id: 7,
-        title: "Reactコンポーネント集",
-        category: "Web App",
-        description: "再利用可能なReactコンポーネントの集合。デザインシステムとして活用できます。",
-        image: "⚛️",
-        date: "2025-07-25",
-        url: "https://example.com/react-components"
-    },
-    {
-        id: 8,
-        title: "Webデザイン基礎",
-        category: "学習",
-        description: "HTML/CSS/JavaScriptの基礎から応用まで学べるカリキュラム。実践的なプロジェクト付き。",
-        image: "🌐",
-        date: "2025-06-12",
-        url: "https://example.com/web-design-course"
-    },
-    {
-        id: 9,
-        title: "チャットアプリ",
-        category: "Web App",
-        description: "WebSocketを使用したリアルタイムチャットアプリケーション。複数ユーザー対応。",
-        image: "💬",
-        date: "2025-05-28",
-        url: "https://example.com/chat-app"
-    },
-    {
-        id: 10,
-        title: "音楽プレイヤー",
-        category: "ツール",
-        description: "シンプルで使いやすい音楽プレイヤー。プレイリスト機能とカスタマイズ可能なスキン。",
-        image: "🎵",
-        date: "2025-04-15",
-        url: "https://example.com/music-player"
-    }
+    
 ];
 
 // 現在のフィルター状態
