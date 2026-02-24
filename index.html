@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポータルサイト - My Web Applications</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- サイドバー -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>📅 タイムライン</h2>
+            </div>
+            <div class="sidebar-content">
+                <div class="timeline-items" id="timelineContainer">
+                    <!-- JavaScriptで動的に生成 -->
+                </div>
+            </div>
+        </aside>
+
+        <!-- メインコンテンツ -->
+        <main class="main-content">
+            <!-- ヘッダー -->
+            <header class="header">
+                <div class="header-content">
+                    <div class="header-top">
+                        <div>
+                            <h1>🚀 My Web Applications Portal</h1>
+                            <p class="subtitle">これまでに作成したWebアプリケーションやサイト一覧</p>
+                        </div>
+                        <button id="darkModeToggle" class="dark-mode-btn" title="ダークモード切り替え">
+                            🌙
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- コントロールエリア -->
+            <div class="controls">
+                <div class="search-box">
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        placeholder="🔍 サイトを検索..."
+                        class="search-input"
+                    >
+                </div>
+
+                <div class="filter-controls">
+                    <select id="categoryFilter" class="filter-select">
+                        <option value="">📂 全カテゴリー</option>
+                        <option value="Web App">Web App</option>
+                        <option value="デザイン">デザイン</option>
+                        <option value="ツール">ツール</option>
+                        <option value="学習">学習</option>
+                    </select>
+
+                    <select id="sortSelect" class="filter-select">
+                        <option value="newest">⏰ 新着順</option>
+                        <option value="oldest">📅 古い順</option>
+                        <option value="title">🔤 名前順</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- カード一覧 -->
+            <div class="cards-container" id="cardsContainer">
+                <!-- JavaScriptで動的に生成 -->
+            </div>
+
+            <!-- 検索結果なし -->
+            <div class="no-results" id="noResults" style="display: none;">
+                <p>😢 該当するサイトが見つかりません</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
